@@ -1,7 +1,7 @@
 {
   "name": "@typebot.io/docusaurus-preset-openapi",
   "description": "OpenAPI preset for Docusaurus.",
-  "version": "0.6.4",
+  "version": "0.6.5",
   "license": "MIT",
   "keywords": [
     "openapi",
@@ -32,9 +32,9 @@
   },
   "dependencies": {
     "@docusaurus/preset-classic": "^2.0.0",
-    "@typebot.io/docusaurus-plugin-openapi": "^0.6.4",
-    "@typebot.io/docusaurus-plugin-proxy": "^0.6.4",
-    "@typebot.io/docusaurus-theme-openapi": "^0.6.4"
+    "@typebot.io/docusaurus-plugin-openapi": "^0.6.5",
+    "@typebot.io/docusaurus-plugin-proxy": "^0.6.5",
+    "@typebot.io/docusaurus-theme-openapi": "^0.6.5"
   },
   "peerDependencies": {
     "react": "^16.8.4 || ^17.0.0",

@@ -20,8 +20,8 @@ import IconArrow from "@theme/Icon/Arrow";
 import Layout from "@theme/Layout";
 import MDXComponents from "@theme/MDXComponents";
 import NotFound from "@theme/NotFound";
+import { PropApiMetadata } from "@typebot.io/docusaurus-plugin-openapi";
 import clsx from "clsx";
-import { PropApiMetadata } from "docusaurus-plugin-openapi";
 
 import styles from "./styles.module.css";
 

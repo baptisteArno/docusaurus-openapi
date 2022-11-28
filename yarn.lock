@@ -7351,68 +7351,6 @@ doctrine@^3.0.0:
   dependencies:
     esutils "^2.0.2"
 
-docusaurus-plugin-openapi@^0.6.3:
-  version "0.6.3"
-  resolved "https://registry.yarnpkg.com/docusaurus-plugin-openapi/-/docusaurus-plugin-openapi-0.6.3.tgz#03049eb843211a6fa36d7209dfd278438bfdcf01"
-  integrity sha512-2i/f4zfW5aCNe8Ids6WsgSPQHFEdAwvhoe0lwb83QkNE33bYerZmoqSjJr6wSZsAEsb1HkDW+JLZNxkjSAHe2w==
-  dependencies:
-    "@docusaurus/mdx-loader" "^2.0.0"
-    "@docusaurus/plugin-content-docs" "^2.0.0"
-    "@docusaurus/utils" "^2.0.0"
-    "@docusaurus/utils-validation" "^2.0.0"
-    axios "^0.26.1"
-    chalk "^4.1.2"
-    clsx "^1.1.1"
-    fs-extra "^9.0.1"
-    js-yaml "^4.1.0"
-    json-refs "^3.0.15"
-    json-schema-resolve-allof "^1.5.0"
-    lodash "^4.17.20"
-    openapi-to-postmanv2 "^1.2.1"
-    postman-collection "^4.1.0"
-    remark-admonitions "^1.2.1"
-    webpack "^5.73.0"
-
-docusaurus-plugin-proxy@^0.6.3:
-  version "0.6.3"
-  resolved "https://registry.yarnpkg.com/docusaurus-plugin-proxy/-/docusaurus-plugin-proxy-0.6.3.tgz#4ef3193e49ef851a3b5b57f349e3549c41a7a20e"
-  integrity sha512-HAR76IsuSWlVI1K6P8fEJDjhHxT3LLdXGr+ZxNBm6DJTUQ8Xf057nHR8BhB5sfwmzrDPup5wChP/nuOVAfU6wg==
-
-docusaurus-preset-openapi@^0.6.3:
-  version "0.6.3"
-  resolved "https://registry.yarnpkg.com/docusaurus-preset-openapi/-/docusaurus-preset-openapi-0.6.3.tgz#31537616923bd374884aa41a38670515480ccc65"
-  integrity sha512-zAkQE9SrA4WannHjLhO6PX8QaSqKVATDjFF/ZEj+0jmCikoBzyvsvh+qSGHszAb0Gkg/vKrAXYYBs/Iq1a4O7Q==
-  dependencies:
-    "@docusaurus/preset-classic" "^2.0.0"
-    docusaurus-plugin-openapi "^0.6.3"
-    docusaurus-plugin-proxy "^0.6.3"
-    docusaurus-theme-openapi "^0.6.3"
-
-docusaurus-theme-openapi@^0.6.3:
-  version "0.6.3"
-  resolved "https://registry.yarnpkg.com/docusaurus-theme-openapi/-/docusaurus-theme-openapi-0.6.3.tgz#eace4982a6d969b4c4f8fad85478d283553126b9"
-  integrity sha512-9cFFbfP2arRHxs/HgSX4phbfpwawN1sxY8H8REZYiqwzEpirNE++qkz507K3bYz7WfOqYwYJAITkPtnPaKzjag==
-  dependencies:
-    "@docusaurus/theme-common" "^2.0.0"
-    "@mdx-js/react" "^1.6.22"
-    "@monaco-editor/react" "^4.3.1"
-    "@reduxjs/toolkit" "^1.7.1"
-    buffer "^6.0.3"
-    clsx "^1.1.1"
-    crypto-js "^4.1.1"
-    docusaurus-plugin-openapi "^0.6.3"
-    immer "^9.0.7"
-    lodash "^4.17.20"
-    monaco-editor "^0.31.1"
-    postman-code-generators "^1.0.0"
-    postman-collection "^4.1.0"
-    prism-react-renderer "^1.2.1"
-    process "^0.11.10"
-    react-magic-dropzone "^1.0.1"
-    react-redux "^7.2.0"
-    redux-devtools-extension "^2.13.8"
-    webpack "^5.73.0"
-
 dom-accessibility-api@^0.5.6, dom-accessibility-api@^0.5.9:
   version "0.5.10"
   resolved "https://registry.yarnpkg.com/dom-accessibility-api/-/dom-accessibility-api-0.5.10.tgz#caa6d08f60388d0bb4539dd75fe458a9a1d0014c"

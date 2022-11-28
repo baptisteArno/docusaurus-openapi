@@ -12,7 +12,7 @@ import { ProvidePlugin } from "webpack";
 
 export default function docusaurusThemeOpenAPI(): Plugin<void> {
   return {
-    name: "docusaurus-theme-openapi",
+    name: "@typebot.io/docusaurus-theme-openapi",
 
     getThemePath() {
       return path.join(__dirname, "..", "lib-next", "theme");

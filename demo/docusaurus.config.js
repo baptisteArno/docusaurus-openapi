@@ -18,7 +18,7 @@ const config = {
 
   presets: [
     [
-      "docusaurus-preset-openapi",
+      "@typebot.io/docusaurus-preset-openapi",
       /** @type {import('docusaurus-preset-openapi').Options} */
       ({
         api: {
@@ -47,7 +47,7 @@ const config = {
 
   plugins: [
     [
-      "docusaurus-plugin-openapi",
+      "@typebot.io/docusaurus-plugin-openapi",
       {
         id: "cos",
         path: "examples/openapi-cos.json",
@@ -65,7 +65,7 @@ const config = {
   ],
 
   themeConfig:
-    /** @type {import('docusaurus-preset-openapi').ThemeConfig} */
+    /** @type {import('@typebot.io/docusaurus-preset-openapi').ThemeConfig} */
     ({
       colorMode: {
         disableSwitch: true,

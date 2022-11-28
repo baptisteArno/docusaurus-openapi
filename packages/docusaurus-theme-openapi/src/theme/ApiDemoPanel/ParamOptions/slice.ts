@@ -6,7 +6,7 @@
  * ========================================================================== */
 
 import { createSlice, PayloadAction } from "@reduxjs/toolkit";
-import { ParameterObject } from "docusaurus-plugin-openapi/src/openapi/types";
+import { ParameterObject } from "@typebot.io/docusaurus-plugin-openapi/src/openapi/types";
 
 export type Param = ParameterObject & { value?: string[] | string };
 
